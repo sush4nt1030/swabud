@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SWABUD//swabud.tech//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:chevening-2027-28-deadline@swabud.tech
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:Deadline: Chevening Scholarships 2027-28
+DESCRIPTION:The UK government's fully funded scholarship for a one-year master's degree in the UK\, for future leaders with a clear plan to make a positive impact. Details: https://swabud.tech/opportunities/chevening-2027-28.html
+URL:https://swabud.tech/opportunities/chevening-2027-28.html
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,87 @@
+[
+  {
+    "id": "web",
+    "title": "Web development",
+    "icon": "code",
+    "pitch": "Build websites and web apps. The fastest way to have projects people can actually open.",
+    "steps": ["HTML and CSS: build three static pages from scratch", "JavaScript basics, then the DOM and fetch", "Git and GitHub: push every project", "One framework (React or Vue) and one backend (Node or Python)", "Deploy a full project with a real domain"],
+    "roadmap": "https://roadmap.sh/frontend",
+    "resources": [
+      {"name": "freeCodeCamp", "url": "https://www.freecodecamp.org/learn/", "desc": "Free curriculum with projects and certifications."},
+      {"name": "The Odin Project", "url": "https://www.theodinproject.com", "desc": "Full-stack path built around real projects."},
+      {"name": "MDN Learn", "url": "https://developer.mozilla.org/en-US/docs/Learn", "desc": "Mozilla's reference-quality guides to HTML, CSS and JavaScript."},
+      {"name": "web.dev Learn", "url": "https://web.dev/learn", "desc": "Google's courses on CSS, accessibility and performance."}
+    ]
+  },
+  {
+    "id": "security",
+    "title": "Cybersecurity",
+    "icon": "shield",
+    "pitch": "Learn how systems are attacked and defended, legally, in labs built for practice.",
+    "steps": ["Networking basics: IP, DNS, HTTP, ports", "Linux command line, every day", "Web security fundamentals (OWASP Top 10)", "Guided labs, then your first CTF", "Write up what you solve; it becomes your portfolio"],
+    "roadmap": "https://roadmap.sh/cyber-security",
+    "resources": [
+      {"name": "TryHackMe Pre Security", "url": "https://tryhackme.com/path/outline/presecurity", "desc": "Beginner path covering networks, the web and Linux."},
+      {"name": "OverTheWire: Bandit", "url": "https://overthewire.org/wargames/bandit/", "desc": "Free wargame that teaches the Linux command line."},
+      {"name": "picoGym", "url": "https://play.picoctf.org/practice", "desc": "Year-round CTF practice problems from picoCTF."},
+      {"name": "Cisco Networking Academy", "url": "https://www.netacad.com", "desc": "Free courses including introductions to cybersecurity and networking."},
+      {"name": "PortSwigger Web Security Academy", "url": "https://portswigger.net/web-security", "desc": "Free web security labs."}
+    ]
+  },
+  {
+    "id": "data",
+    "title": "Data and AI",
+    "icon": "chart",
+    "pitch": "Work with data, build models and understand how modern AI systems work.",
+    "steps": ["Python and basic statistics", "pandas and data visualisation", "Machine learning fundamentals", "A Kaggle Getting Started competition", "One project with your own dataset from Nepal"],
+    "roadmap": "https://roadmap.sh/ai-data-scientist",
+    "resources": [
+      {"name": "Kaggle Learn", "url": "https://www.kaggle.com/learn", "desc": "Short, free, hands-on courses in Python, pandas and ML."},
+      {"name": "Machine Learning Crash Course", "url": "https://developers.google.com/machine-learning/crash-course", "desc": "Google's free introduction to machine learning."},
+      {"name": "Practical Deep Learning (fast.ai)", "url": "https://course.fast.ai", "desc": "Free, code-first deep learning course."},
+      {"name": "CS50's Introduction to AI with Python", "url": "https://cs50.harvard.edu/ai/", "desc": "Harvard's free AI course."}
+    ]
+  },
+  {
+    "id": "cs",
+    "title": "Programming and CS basics",
+    "icon": "terminal",
+    "pitch": "The foundations every tech path relies on: problem solving, data structures and how computers work.",
+    "steps": ["One language well (C, Python or Java)", "Data structures and algorithms", "Practice problems a few times a week", "Operating systems and networks basics", "Explain your solutions out loud for interviews"],
+    "roadmap": "https://roadmap.sh/computer-science",
+    "resources": [
+      {"name": "CS50x", "url": "https://cs50.harvard.edu/x/", "desc": "Harvard's free introduction to computer science."},
+      {"name": "MIT OpenCourseWare", "url": "https://ocw.mit.edu", "desc": "Free lecture notes, exams and videos from MIT courses."},
+      {"name": "Exercism", "url": "https://exercism.org", "desc": "Free coding exercises with mentor feedback in 70+ languages."},
+      {"name": "GitHub Skills", "url": "https://skills.github.com", "desc": "Interactive courses on Git, GitHub and Actions."}
+    ]
+  },
+  {
+    "id": "cloud",
+    "title": "Cloud and DevOps",
+    "icon": "cloud",
+    "pitch": "Deploy, run and automate software on servers and cloud platforms.",
+    "steps": ["Linux and shell scripting", "Networking and how the internet routes traffic", "Docker containers", "One cloud platform's fundamentals", "CI/CD: automate tests and deployment"],
+    "roadmap": "https://roadmap.sh/devops",
+    "resources": [
+      {"name": "Microsoft Learn", "url": "https://learn.microsoft.com/training/", "desc": "Free cloud and Azure training paths."},
+      {"name": "AWS Skill Builder", "url": "https://skillbuilder.aws", "desc": "AWS training with many free courses."},
+      {"name": "Docker: Get started", "url": "https://docs.docker.com/get-started/", "desc": "Official hands-on introduction to containers."},
+      {"name": "Linux Journey", "url": "https://linuxjourney.com", "desc": "Friendly, free introduction to Linux."}
+    ]
+  },
+  {
+    "id": "design",
+    "title": "Design and UI/UX",
+    "icon": "pen",
+    "pitch": "Design interfaces people understand, and visuals that make your projects stand out.",
+    "steps": ["Visual basics: type, colour, spacing", "Figma: frames, components, auto layout", "UX principles and usability testing", "Redesign one real app screen", "Case studies for your portfolio"],
+    "roadmap": "https://roadmap.sh/ux-design",
+    "resources": [
+      {"name": "Figma for Education", "url": "https://www.figma.com/education/", "desc": "Free Figma plans for students."},
+      {"name": "Laws of UX", "url": "https://lawsofux.com", "desc": "Short explanations of key UX principles."},
+      {"name": "Material Design 3", "url": "https://m3.material.io", "desc": "Google's design system and guidelines."},
+      {"name": "Canva Design School", "url": "https://www.canva.com/designschool/", "desc": "Free design courses for graphics and social posts."}
+    ]
+  }
+]

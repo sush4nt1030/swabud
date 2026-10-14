@@ -1,0 +1,17 @@
+<!-- Supabase > Authentication > Emails > "Confirm signup". Subject: Your SWABUD code: {{ .Token }} -->
+<div style="margin:0;padding:24px;background:#F4F7FA;font-family:Arial,Helvetica,sans-serif;color:#101C30">
+  <div style="max-width:520px;margin:0 auto;background:#FFFFFF;border:1px solid #DCE3EC;border-radius:14px;overflow:hidden">
+    <div style="background:#101C30;padding:20px 24px;border-left:6px solid #C6F36A">
+      <span style="font-size:20px;font-weight:700;letter-spacing:2px;color:#FFFFFF">SWABUD</span>
+      <span style="display:block;font-size:12px;color:#C6F36A;letter-spacing:1px;margin-top:4px">DISCOVER. CONNECT. GROW.</span>
+    </div>
+    <div style="padding:28px 24px">
+      <h1 style="font-size:20px;margin:0 0 12px">Confirm your email</h1>
+      <p style="margin:0 0 16px;line-height:1.6">Namaste! Enter this code on swabud.tech to finish creating your account:</p>
+      <p style="margin:0 0 20px;font-family:'Courier New',monospace;font-size:32px;font-weight:700;letter-spacing:8px;background:#F4F7FA;border:2px dashed #3B6609;border-radius:10px;padding:14px;text-align:center">{{ .Token }}</p>
+      <p style="margin:0 0 16px;line-height:1.6;color:#56657A;font-size:14px">The code is valid for one hour. You can also confirm with this link: <a href="{{ .ConfirmationURL }}" style="color:#101C30;font-weight:700">confirm my email</a>.</p>
+      <p style="margin:0;line-height:1.6;color:#56657A;font-size:13px">Didn't sign up for SWABUD? You can ignore this email. SWABUD will never ask you for this code by phone or message.</p>
+    </div>
+    <div style="padding:14px 24px;border-top:1px solid #DCE3EC;font-size:12px;color:#56657A">SWABUD · swabud.tech · info@swabud.tech</div>
+  </div>
+</div>

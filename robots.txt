@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /_source/
+Disallow: /supabase/
+
+Sitemap: https://swabud.tech/sitemap.xml

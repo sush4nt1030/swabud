@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SWABUD//swabud.tech//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:hacktoberfest-2026-event@swabud.tech
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261101
+SUMMARY:Hacktoberfest 2026
+DESCRIPTION:A month-long open-source celebration. In 2026 it focuses on in-person and online events about building and learning with open-source AI and open-weight models\, instead of counting pull requests. Details: https://swabud.tech/opportunities/hacktoberfest-2026.html
+URL:https://swabud.tech/opportunities/hacktoberfest-2026.html
+END:VEVENT
+BEGIN:VEVENT
+UID:hacktoberfest-2026-deadline@swabud.tech
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Deadline: Hacktoberfest 2026
+DESCRIPTION:A month-long open-source celebration. In 2026 it focuses on in-person and online events about building and learning with open-source AI and open-weight models\, instead of counting pull requests. Details: https://swabud.tech/opportunities/hacktoberfest-2026.html
+URL:https://swabud.tech/opportunities/hacktoberfest-2026.html
+END:VEVENT
+END:VCALENDAR

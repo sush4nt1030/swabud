@@ -1,0 +1,376 @@
+[
+  {
+    "id": "competitions",
+    "title": "Hackathons and competitions",
+    "intro": "Platforms that list hackathons, coding contests and startup competitions. Many are online and open to students in Nepal.",
+    "items": [
+      {
+        "name": "Devpost",
+        "url": "https://devpost.com/hackathons",
+        "desc": "Online and in-person hackathons worldwide, with filters for open, online events.",
+        "tag": "Hackathons"
+      },
+      {
+        "name": "Major League Hacking",
+        "url": "https://mlh.io",
+        "desc": "The official student hackathon league, plus Global Hack Weeks you can join online.",
+        "tag": "Hackathons"
+      },
+      {
+        "name": "Devfolio",
+        "url": "https://devfolio.co/hackathons",
+        "desc": "Hackathons and buildathons, many hosted across South Asia.",
+        "tag": "Hackathons"
+      },
+      {
+        "name": "Unstop",
+        "url": "https://unstop.com",
+        "desc": "Student competitions, quizzes and hackathons; check each one's eligibility for Nepal.",
+        "tag": "Competitions"
+      },
+      {
+        "name": "Kaggle Competitions",
+        "url": "https://www.kaggle.com/competitions",
+        "desc": "Data science and machine learning competitions, including beginner tracks.",
+        "tag": "Data & AI"
+      },
+      {
+        "name": "Codeforces",
+        "url": "https://codeforces.com/contests",
+        "desc": "Regular competitive programming rounds with global rankings.",
+        "tag": "Programming"
+      },
+      {
+        "name": "ICPC",
+        "url": "https://icpc.global",
+        "desc": "The International Collegiate Programming Contest for university teams.",
+        "tag": "Programming"
+      },
+      {
+        "name": "NASA Space Apps Challenge",
+        "url": "https://www.spaceappschallenge.org/",
+        "desc": "Yearly global hackathon using NASA's open data.",
+        "tag": "Hackathons"
+      },
+      {
+        "name": "IEEEXtreme",
+        "url": "https://ieeextreme.org/",
+        "desc": "24-hour global programming contest for IEEE student teams.",
+        "tag": "Programming"
+      },
+      {
+        "name": "Advent of Code",
+        "url": "https://adventofcode.com/",
+        "desc": "December programming puzzles you can solve in any language.",
+        "tag": "Puzzles"
+      }
+    ]
+  },
+  {
+    "id": "cybersecurity",
+    "title": "Cybersecurity and CTFs",
+    "intro": "Capture-the-flag competitions and legal practice labs for building security skills.",
+    "items": [
+      {
+        "name": "CTFtime",
+        "url": "https://ctftime.org/event/list/upcoming",
+        "desc": "The calendar of upcoming CTF competitions, with team rankings.",
+        "tag": "CTF"
+      },
+      {
+        "name": "picoCTF",
+        "url": "https://picoctf.org",
+        "desc": "Beginner-friendly CTF by Carnegie Mellon University, with a year-round practice gym.",
+        "tag": "CTF"
+      },
+      {
+        "name": "TryHackMe",
+        "url": "https://tryhackme.com",
+        "desc": "Guided, browser-based security labs and learning paths.",
+        "tag": "Labs"
+      },
+      {
+        "name": "Hack The Box",
+        "url": "https://www.hackthebox.com",
+        "desc": "Hands-on hacking labs, academy courses and competitions.",
+        "tag": "Labs"
+      },
+      {
+        "name": "OverTheWire",
+        "url": "https://overthewire.org/wargames/",
+        "desc": "Free wargames; Bandit is a classic start for Linux skills.",
+        "tag": "Practice"
+      },
+      {
+        "name": "PortSwigger Web Security Academy",
+        "url": "https://portswigger.net/web-security",
+        "desc": "Free web security training with interactive labs.",
+        "tag": "Web security"
+      },
+      {
+        "name": "SANS Holiday Hack Challenge",
+        "url": "https://holidayhackchallenge.com",
+        "desc": "Free, story-driven security game each winter, with past editions online.",
+        "tag": "CTF"
+      },
+      {
+        "name": "BSides Kathmandu",
+        "url": "https://bsidesktm.com/",
+        "desc": "Nepal's first BSides security conference, with a live CTF.",
+        "tag": "Nepal"
+      }
+    ]
+  },
+  {
+    "id": "open-source",
+    "title": "Open-source programmes",
+    "intro": "Paid and unpaid programmes where you contribute to real open-source projects with mentors.",
+    "items": [
+      {
+        "name": "Google Summer of Code",
+        "url": "https://summerofcode.withgoogle.com",
+        "desc": "Paid, mentored open-source work for new contributors.",
+        "tag": "Paid"
+      },
+      {
+        "name": "Outreachy",
+        "url": "https://www.outreachy.org",
+        "desc": "Paid remote internships in open source and open science.",
+        "tag": "Paid"
+      },
+      {
+        "name": "LFX Mentorship",
+        "url": "https://mentorship.lfx.linuxfoundation.org",
+        "desc": "Paid mentorships on Linux Foundation projects, three terms a year.",
+        "tag": "Paid"
+      },
+      {
+        "name": "MLH Fellowship",
+        "url": "https://fellowship.mlh.com",
+        "desc": "12-week remote fellowship with an educational stipend.",
+        "tag": "Stipend"
+      },
+      {
+        "name": "Hacktoberfest",
+        "url": "https://hacktoberfest.com",
+        "desc": "October's open-source celebration, with online and local events.",
+        "tag": "Every October"
+      },
+      {
+        "name": "Good First Issue",
+        "url": "https://goodfirstissue.dev",
+        "desc": "Beginner-friendly issues from popular open-source projects.",
+        "tag": "Start here"
+      }
+    ]
+  },
+  {
+    "id": "jobs",
+    "title": "Internships, fellowships and jobs",
+    "intro": "Job portals in Nepal and remote boards. Always apply through the company's own page when you can.",
+    "items": [
+      {
+        "name": "MeroJob",
+        "url": "https://merojob.com",
+        "desc": "One of Nepal's largest job portals, including IT roles and internships.",
+        "tag": "Nepal"
+      },
+      {
+        "name": "KumariJob",
+        "url": "https://kumarijob.com",
+        "desc": "Nepali job portal with IT, banking and NGO listings.",
+        "tag": "Nepal"
+      },
+      {
+        "name": "JobsNepal",
+        "url": "https://www.jobsnepal.com",
+        "desc": "Long-running Nepali job board.",
+        "tag": "Nepal"
+      },
+      {
+        "name": "LinkedIn Jobs",
+        "url": "https://www.linkedin.com/jobs/",
+        "desc": "Search \"intern\" with location Nepal or Remote, and set job alerts.",
+        "tag": "Nepal + remote"
+      },
+      {
+        "name": "Wellfound",
+        "url": "https://wellfound.com/jobs",
+        "desc": "Startup jobs, many remote-friendly.",
+        "tag": "Remote"
+      },
+      {
+        "name": "Fusemachines AI Fellowship",
+        "url": "https://fuse.ai/ai-fellowship/nepal/",
+        "desc": "Six-month AI programme in Nepal with full scholarships for selected candidates.",
+        "tag": "Fellowship"
+      },
+      {
+        "name": "Teach For Nepal",
+        "url": "https://www.teachfornepal.org/tfn/apply-now",
+        "desc": "Two-year paid fellowship teaching in public schools.",
+        "tag": "Fellowship"
+      }
+    ]
+  },
+  {
+    "id": "scholarships",
+    "title": "Scholarships and study abroad",
+    "intro": "Official scholarship sites only. Government scholarships never ask you to pay an agent to apply.",
+    "items": [
+      {
+        "name": "Chevening (UK)",
+        "url": "https://www.chevening.org/scholarships/",
+        "desc": "Fully funded UK master's scholarships.",
+        "tag": "UK"
+      },
+      {
+        "name": "Fulbright Commission in Nepal",
+        "url": "http://www.fulbrightnepal.org.np/",
+        "desc": "Fulbright programmes for Nepali students and scholars.",
+        "tag": "USA"
+      },
+      {
+        "name": "MEXT via Embassy of Japan in Nepal",
+        "url": "https://www.np.emb-japan.go.jp/itpr_ja/11_000001_00723.html",
+        "desc": "Japanese government scholarships for Nepali students.",
+        "tag": "Japan"
+      },
+      {
+        "name": "DAAD Scholarship Database",
+        "url": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/",
+        "desc": "Search scholarships for study and research in Germany.",
+        "tag": "Germany"
+      },
+      {
+        "name": "Erasmus Mundus Catalogue",
+        "url": "https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en",
+        "desc": "EU-funded joint master's programmes across Europe.",
+        "tag": "Europe"
+      },
+      {
+        "name": "Embassy of Korea in Nepal notices",
+        "url": "https://overseas.mofa.go.kr/np-en/brd/m_25533/list.do",
+        "desc": "Official GKS scholarship notices and deadlines for Nepali applicants.",
+        "tag": "Korea"
+      },
+      {
+        "name": "Study in Korea (GKS)",
+        "url": "https://www.studyinkorea.go.kr",
+        "desc": "Korean government's portal for international students and GKS scholarships.",
+        "tag": "Korea"
+      }
+    ]
+  },
+  {
+    "id": "nepal",
+    "title": "Communities and events in Nepal",
+    "intro": "Tech communities and event calendars close to home.",
+    "items": [
+      {
+        "name": "dev.events: Nepal",
+        "url": "https://dev.events/AS/NP",
+        "desc": "Calendar of developer conferences and meetups in Nepal.",
+        "tag": "Events"
+      },
+      {
+        "name": "GDG Kathmandu",
+        "url": "https://gdg.community.dev/gdg-kathmandu/",
+        "desc": "Google Developer Group in Kathmandu, organisers of DevFest Kathmandu.",
+        "tag": "Community"
+      },
+      {
+        "name": "PgConf.Nepal",
+        "url": "https://2026.pgconf.org.np/",
+        "desc": "Nepal's PostgreSQL conference, Kathmandu, November 2026.",
+        "tag": "Conference"
+      },
+      {
+        "name": "AI Conf (Web Weekend Kathmandu)",
+        "url": "https://aiconf.asia",
+        "desc": "AI conference in Kathmandu, 8 to 10 Jan 2027.",
+        "tag": "Conference"
+      },
+      {
+        "name": "Code for Nepal",
+        "url": "https://codefornepal.org",
+        "desc": "Nonprofit working on open data and digital literacy in Nepal.",
+        "tag": "Community"
+      },
+      {
+        "name": "WordCamp Nepal 2027",
+        "url": "https://nepal.wordcamp.org/2027/",
+        "desc": "National WordPress conference, Nepalgunj, 29 to 30 Jan 2027.",
+        "tag": "Conference"
+      },
+      {
+        "name": "BSides Kathmandu 2026",
+        "url": "https://bsidesktm.com/",
+        "desc": "Security conference in Kathmandu on 21 Nov 2026.",
+        "tag": "Conference"
+      }
+    ]
+  },
+  {
+    "id": "volunteering",
+    "title": "Volunteering",
+    "intro": "Use your skills for causes and communities, online or close to home.",
+    "items": [
+      {
+        "name": "UN Online Volunteering",
+        "url": "https://app.unv.org/?type=online",
+        "desc": "Remote assignments with UN agencies and partners, for anyone 18 or older.",
+        "tag": "Online"
+      },
+      {
+        "name": "HOT Tasking Manager",
+        "url": "https://tasks.hotosm.org/",
+        "desc": "Map buildings and roads for humanitarian projects on OpenStreetMap.",
+        "tag": "Mapping"
+      },
+      {
+        "name": "Zooniverse",
+        "url": "https://www.zooniverse.org/",
+        "desc": "Citizen science projects anyone can help with online.",
+        "tag": "Science"
+      },
+      {
+        "name": "Teach For Nepal",
+        "url": "https://www.teachfornepal.org/",
+        "desc": "Fellowship and volunteer pathways in Nepal's public schools.",
+        "tag": "Nepal"
+      }
+    ]
+  },
+  {
+    "id": "perks",
+    "title": "Free tools for students",
+    "intro": "Professional tools you can use free while you study.",
+    "items": [
+      {
+        "name": "GitHub Student Developer Pack",
+        "url": "https://education.github.com/pack",
+        "desc": "GitHub Pro, cloud credits and dozens of partner tools.",
+        "tag": "Free"
+      },
+      {
+        "name": "JetBrains for students",
+        "url": "https://www.jetbrains.com/community/education/#students",
+        "desc": "Free licences for JetBrains IDEs while you study.",
+        "tag": "Free"
+      },
+      {
+        "name": "Azure for Students",
+        "url": "https://azure.microsoft.com/free/students/",
+        "desc": "Cloud credit for students, no credit card required.",
+        "tag": "Credit"
+      },
+      {
+        "name": "Figma for Education",
+        "url": "https://www.figma.com/education/",
+        "desc": "Free Figma plans for students and educators.",
+        "tag": "Free"
+      }
+    ]
+  }
+]

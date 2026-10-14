@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SWABUD//swabud.tech//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:anais-2026-nepal-ai-school-event@swabud.tech
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20270108
+SUMMARY:Annual Nepal AI School (ANAIS) 2026
+DESCRIPTION:The seventh Annual Nepal AI School: about ten days of AI lectures and hands-on labs taught by international researchers\, held in person near Kathmandu. Details: https://swabud.tech/opportunities/anais-2026-nepal-ai-school.html
+URL:https://swabud.tech/opportunities/anais-2026-nepal-ai-school.html
+END:VEVENT
+BEGIN:VEVENT
+UID:anais-2026-nepal-ai-school-deadline@swabud.tech
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Deadline: Annual Nepal AI School (ANAIS) 2026
+DESCRIPTION:The seventh Annual Nepal AI School: about ten days of AI lectures and hands-on labs taught by international researchers\, held in person near Kathmandu. Details: https://swabud.tech/opportunities/anais-2026-nepal-ai-school.html
+URL:https://swabud.tech/opportunities/anais-2026-nepal-ai-school.html
+END:VEVENT
+END:VCALENDAR

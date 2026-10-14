@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SWABUD//swabud.tech//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:ai-conf-2027-kathmandu-event@swabud.tech
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270111
+SUMMARY:AI Conf 2027\, Kathmandu
+DESCRIPTION:Three days of talks and keynotes on building\, shipping and scaling AI\, from research to production\, plus a community hike around the Kathmandu valley. The call for speakers is open. Details: https://swabud.tech/opportunities/ai-conf-2027-kathmandu.html
+URL:https://swabud.tech/opportunities/ai-conf-2027-kathmandu.html
+END:VEVENT
+END:VCALENDAR
