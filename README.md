@@ -120,7 +120,46 @@ In **Authentication > Sign In / Providers > Email**, keep **Confirm email** on a
 
 **cPanel / any web host:** upload everything except `_source/` and `supabase/` into `public_html`. `.htaccess` sets the 404 page, caching and the HTTPS redirect, and blocks those two folders.
 
-## Add or update an opportunity
+## Admin panel: publish opportunities without code
+
+`admin.html` (https://swabud.tech/admin.html) lets the SWABUD team add, edit, publish, unpublish and remove opportunities from a form, and turn student submissions into listings. No code, no build, no upload.
+
+**How it goes live**
+
+1. **Straight away:** when you click *Publish now*, the listing appears in the directory, the calendar, saved lists, member dashboards and on its own page (`listing.html?id=<web-address>`).
+2. **Within 30 minutes:** the GitHub Action *Publish admin listings* (`.github/workflows/publish-admin-listings.yml`) copies your changes into `_source/data/opportunities.json`, runs `_source/build.py` and pushes. Cloudflare Pages publishes the commit, and the listing gets its permanent page at `opportunities/<web-address>.html`, plus its calendar file, sitemap entry, RSS item and home-page placement. It also rebuilds once every night (00:05 Nepal time) so dates in the static pages stay fresh.
+
+### One-time setup (about 10 minutes)
+
+1. **Database.** In Supabase, open **SQL Editor > New query**, paste everything from `supabase/admin.sql`, and before running it add your own login email on the line near the bottom:
+   `insert into public.admins (email) values ('you@gmail.com') on conflict do nothing;`
+   Use the exact email you log in to swabud.tech with (your Google account if you use "Continue with Google"). Click **Run**. It's safe to run again later.
+2. **Website files.** Upload this folder to your GitHub repository as usual (it includes the new `.github` folder, so make sure hidden folders are included). Cloudflare Pages publishes it.
+3. **GitHub Actions.** In the repository on GitHub: **Settings > Actions > General**. Under *Actions permissions* allow actions, and under *Workflow permissions* choose **Read and write permissions**, then **Save**. Then open the **Actions** tab, pick **Publish admin listings** and click **Run workflow** once to check it finishes with a green tick.
+4. **Log in.** Open https://swabud.tech/admin.html and log in with the email from step 1. If the panel says your account isn't an admin, it shows the exact SQL line to run.
+
+To add another admin, run `insert into public.admins (email) values ('their@email.com') on conflict do nothing;` in the SQL Editor. To remove one, `delete from public.admins where email = 'their@email.com';`.
+
+### Day to day
+
+- **Add an opportunity:** *Add opportunity*, fill the form (the card on the right shows exactly how it will look), then **Publish now**. **Save as draft** keeps it hidden until you're ready. **Preview page** shows the full listing page first.
+- **Edit any listing**, including the ones already on the site: *All listings > Edit*. Your version replaces the old one straight away.
+- **Take something down:** *Remove*. Its page shows "no longer on SWABUD" at once and is deleted at the next rebuild. *Restore* brings it back.
+- **Student submissions:** the *Submissions* tab lists everything students send from their profile. *Create listing from this* fills the form for you; when you publish, the submission is marked Published and the student sees it in their profile. *Decline* lets you add a short reason.
+- **Publishing tab:** shows what is waiting for the next rebuild, a link to start the rebuild on GitHub right away (type your repository name once, like `username/swabud-site`), a JSON backup download and a bulk import (imported listings arrive as drafts).
+
+### Good to know
+
+- Only emails in `public.admins` can see drafts or change anything. Everyone else can only read published listings, which is what the site needs (`supabase/admin.sql`, row level security).
+- If a listing is edited in the admin panel, that version wins over a hand edit of `opportunities.json` for the same web address. Listings you never touch in the panel can still be edited by hand as before.
+- The web address of a published listing can't change (old links would break). To rename, use *Copy* to make a new listing and remove the old one.
+- The panel works on phones too. On any address other than swabud.tech with empty keys in `config.js`, it runs in preview mode: everything is stored only in that browser, for testing.
+- Scripts and styles now carry a version number (`?v=`) that changes at every build, so visitors always get the latest code even though `/assets/*` is cached for a week.
+
+## Add or update an opportunity by hand (optional)
+
+You can still edit the data file directly instead of using the admin panel:
+
 
 1. Open `_source/data/opportunities.json` and copy an existing entry.
 2. Fill in every field:
@@ -154,4 +193,5 @@ Sources and learning links live in `_source/data/sources.json` and `_source/data
 - Fonts (Google Fonts): Unbounded for headings, Manrope for text, JetBrains Mono for labels and dates.
 - Logos in `assets/img/`: `logo-wordmark.svg` (light backgrounds), `logo-wordmark-white.svg` (dark), `logo-lockup*.svg` (with tagline), `logo-badge.svg`, `icon.svg` (favicon and app icon). Originals in `assets/img/brand/originals/`. Partner logos in `assets/img/partners/`.
 #   s w a b u d  
+ #   s w a b u d  
  
