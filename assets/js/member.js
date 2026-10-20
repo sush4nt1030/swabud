@@ -39,7 +39,8 @@
     if (window.SWABUD_DATA) return Promise.resolve(window.SWABUD_DATA);
     if (!dataP) dataP = new Promise(function (resolve) {
       var s = document.createElement("script");
-      s.src = A.base + "assets/js/data.js";
+      var v = document.querySelector('meta[name="swabud-build"]');
+      s.src = A.base + "assets/js/data.js" + (v ? "?v=" + v.getAttribute("content") : "");
       s.onload = function () { resolve(window.SWABUD_DATA || []); };
       s.onerror = function () { resolve([]); };
       document.head.appendChild(s);
@@ -70,7 +71,7 @@
       var bar = document.createElement("div");
       bar.className = "heads-up";
       bar.setAttribute("role", "status");
-      bar.innerHTML = '<div class="wrap">' + icon("clock") + '<span class="hu-text">Heads up: <a href="' + A.base + "opportunities/" + encodeURIComponent(f.o.s) + '.html">' +
+      bar.innerHTML = '<div class="wrap">' + icon("clock") + '<span class="hu-text">Heads up: <a href="' + A.base + (f.o.x ? "listing.html?id=" + encodeURIComponent(f.o.s) : "opportunities/" + encodeURIComponent(f.o.s) + ".html") + '">' +
         esc(f.o.t) + "</a> " + esc(f.txt.charAt(0).toLowerCase() + f.txt.slice(1)) + (soon.length > 1 ? ", and " + (soon.length - 1) + " more of your saved dates are close" : "") + ".</span>" +
         '<a href="' + A.base + 'profile.html#saved">Open tracker</a><button type="button" aria-label="Dismiss">' + icon("close") + "</button></div>";
       bar.querySelector("button").addEventListener("click", function () { bar.remove(); ssSet("swabud-hu-off", "1"); });

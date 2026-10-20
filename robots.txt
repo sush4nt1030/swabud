@@ -2,5 +2,6 @@ User-agent: *
 Allow: /
 Disallow: /_source/
 Disallow: /supabase/
+Disallow: /admin.html
 
 Sitemap: https://swabud.tech/sitemap.xml

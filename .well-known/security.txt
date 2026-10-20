@@ -1,4 +1,4 @@
 Contact: mailto:info@swabud.tech
-Expires: 2027-10-13T00:00:00.000Z
+Expires: 2027-10-20T00:00:00.000Z
 Preferred-Languages: en, ne
 Canonical: https://swabud.tech/.well-known/security.txt

@@ -210,6 +210,7 @@
     var redirectProfile = BASE + "profile.html";
     return {
       mode: "supabase",
+      client: function () { return clientP; },
       getUser: function () {
         return clientP.then(function (c) { return c.auth.getSession(); }).then(function (r) { var s = r.data && r.data.session; return mapUser(s && s.user); });
       },
@@ -296,7 +297,7 @@
     return backendP;
   }
   var hasSession = MODE === "demo" ? !!lsGet("swabud-demo-session") : (MODE === "supabase" ? !!lsGet("swabud-auth") : false);
-  var needsBackend = ["login", "signup", "forgot", "profile", "submit", "saved"].indexOf(PAGE) !== -1 || hasSession || HASH_AUTH;
+  var needsBackend = ["login", "signup", "forgot", "profile", "submit", "saved", "admin"].indexOf(PAGE) !== -1 || hasSession || HASH_AUTH;
 
   /* ---------- header and account state ---------- */
   function initials(name, email) {
@@ -370,7 +371,7 @@
 
   function goNext(flash) {
     var next = ssTake("swabud-next") || "profile.html";
-    if (!/^[a-z0-9\-\/]+\.html(#[\w-]+)?$/i.test(next)) next = "profile.html";
+    if (!/^[a-z0-9\-\/]+\.html(#[\w-]+|\?id=[a-z0-9-]+(&live=1)?)?$/i.test(next)) next = "profile.html";
     if (flash) ssSet("swabud-flash", flash);
     location.href = BASE + next;
   }

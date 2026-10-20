@@ -17,3 +17,11 @@
 
 /supabase/*
   X-Robots-Tag: noindex
+
+/admin.html
+  X-Robots-Tag: noindex
+  Cache-Control: no-store
+
+/listing.html
+  X-Robots-Tag: noindex
+

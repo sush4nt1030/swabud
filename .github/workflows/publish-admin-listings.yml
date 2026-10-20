@@ -1,0 +1,50 @@
+# Publish admin listings
+# Copies listings published in the admin panel (admin.html) into _source/data/opportunities.json,
+# rebuilds the site with _source/build.py and pushes the result. Cloudflare Pages (or GitHub Pages)
+# then publishes it automatically. Listings are already visible on the site before this runs;
+# this gives them their permanent page, calendar entries, sitemap and RSS item.
+name: Publish admin listings
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # every 30 minutes: pick up new admin listings
+    - cron: "20 18 * * *"    # every night at 00:05 Nepal time: rebuild so dates and statuses stay fresh
+  workflow_dispatch:         # "Run workflow" button on GitHub, to publish right now
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-admin-listings
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Copy admin listings into the site data
+        id: sync
+        run: python3 _source/sync_admin.py
+
+      - name: Rebuild the site
+        if: steps.sync.outputs.changed == 'true' || github.event_name == 'workflow_dispatch' || github.event.schedule == '20 18 * * *'
+        run: python3 _source/build.py
+
+      - name: Commit and push
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Nothing new to publish."
+            exit 0
+          fi
+          git config user.name "SWABUD publisher"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Publish listings from the admin panel"
+          git push

@@ -156,7 +156,7 @@
   }
   refreshStatuses();
   renderTickers();
-  if (document.querySelector("[data-ticker]")) setInterval(renderTickers, 1000);
+  setInterval(function () { if (document.querySelector("[data-ticker]")) renderTickers(); }, 1000);
   setInterval(function () { if (refreshStatuses() && SW.onStatusChange) SW.onStatusChange(); }, 30000);
   document.addEventListener("visibilitychange", function () { if (!document.hidden) { refreshStatuses(); renderTickers(); } });
 
@@ -320,6 +320,7 @@
       return s === f;
     }
     function apply() {
+      cards = Array.prototype.slice.call(dir.querySelectorAll(".opp-card")); /* live.js can add cards after load */
       var q = (qIn.value || "").trim().toLowerCase(), matches = [], member = isMember();
       cards.forEach(function (card) {
         var d = card.dataset, s = card.getAttribute("data-live-status");
@@ -500,6 +501,7 @@
   SW.setSaved = setSaved;
   SW.paintSaved = paintSaved;
   SW.refreshStatuses = refreshStatuses;
+  SW.renderTickers = renderTickers;
   SW.sendToInbox = sendToInbox;
   SW.lsGet = lsGet; SW.lsSet = lsSet; SW.ssSet = ssSet; SW.ssGet = ssGet; SW.ssTake = ssTake;
 })();

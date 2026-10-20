@@ -25,7 +25,7 @@
   function attrs(o) { return 'data-opp data-base="' + esc(o.b) + '" data-opens="' + esc(o.op) + '" data-deadline="' + esc(o.dl) + '" data-start="' + esc(o.st) + '" data-end="' + esc(o.en) + '"'; }
   function dat(o) { return { base: o.b, opens: o.op, deadline: o.dl, start: o.st, end: o.en }; }
   function pill(ph) { return '<span class="pill" data-status="' + ph.s + '">' + esc(SW.LABELS[ph.s] || ph.s) + "</span>"; }
-  function link(o) { return "opportunities/" + encodeURIComponent(o.s) + ".html"; }
+  function link(o) { return o.x ? "listing.html?id=" + encodeURIComponent(o.s) : "opportunities/" + encodeURIComponent(o.s) + ".html"; }
   function toast(m) { if (SW.toast) SW.toast(m); }
 
   /* ---------- tabs ---------- */
