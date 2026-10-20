@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SWABUD//swabud.tech//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:call-for-volunteers-event@swabud.tech
+DTSTAMP:20261020T000000Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261101
+SUMMARY:Call For Volunteers
+DESCRIPTION:Volunteer at WordCamp Nepal 2027 Ready to be part of Nepal’s biggest WordPress event?  WordCamp Nepal 2027 takes place on January 29 and 30\, 2027\, in Nepalgunj. We’re looking for energetic\, motivated\, and dependable volunteers to help make this event another memorable one.  Volunteering at WordCamp is about more than helping behind the scenes. It’s about creating an experience that inspires thousands of people in Nepal’s growing WordPress community. Whether you’re a WordPress veteran\, designer\, developer\, content creator\, or simply a volunteer at heart\, this is your chance to participate\, network\, and learn.  Deadline for form submission is October 31\, 2026 Details: https://swabud.tech/opportunities/call-for-volunteers.html
+URL:https://swabud.tech/opportunities/call-for-volunteers.html
+END:VEVENT
+BEGIN:VEVENT
+UID:call-for-volunteers-deadline@swabud.tech
+DTSTAMP:20261020T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Deadline: Call For Volunteers
+DESCRIPTION:Volunteer at WordCamp Nepal 2027 Ready to be part of Nepal’s biggest WordPress event?  WordCamp Nepal 2027 takes place on January 29 and 30\, 2027\, in Nepalgunj. We’re looking for energetic\, motivated\, and dependable volunteers to help make this event another memorable one.  Volunteering at WordCamp is about more than helping behind the scenes. It’s about creating an experience that inspires thousands of people in Nepal’s growing WordPress community. Whether you’re a WordPress veteran\, designer\, developer\, content creator\, or simply a volunteer at heart\, this is your chance to participate\, network\, and learn.  Deadline for form submission is October 31\, 2026 Details: https://swabud.tech/opportunities/call-for-volunteers.html
+URL:https://swabud.tech/opportunities/call-for-volunteers.html
+END:VEVENT
+END:VCALENDAR

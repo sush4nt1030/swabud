@@ -1,5 +1,35 @@
 [
  {
+  "slug": "call-for-volunteers",
+  "title": "Call For Volunteers",
+  "category": "volunteering",
+  "organizer": "WordCamp Nepal",
+  "summary": "Volunteer at WordCamp Nepal 2027\nReady to be part of Nepal’s biggest WordPress event?\n\nWordCamp Nepal 2027 takes place on January 29 and 30, 2027, in Nepalgunj. We’re looking for energetic, motivated, and dependable volunteers to help make this event another memorable one.\n\nVolunteering at WordCamp is about more than helping behind the scenes. It’s about creating an experience that inspires thousands of people in Nepal’s growing WordPress community. Whether you’re a WordPress veteran, designer, developer, content creator, or simply a volunteer at heart, this is your chance to participate, network, and learn.\n\nDeadline for form submission is October 31, 2026",
+  "who": "Anyone passionate about WordPress, whether experienced or brand new, is welcome to join.",
+  "mode": "In person",
+  "location": "Nepalgunj",
+  "region": "nepal",
+  "dates": "20 to 31 Oct 2026. Applications open 20 Oct 2026. Apply by 7 Nov 2026, 11:59 PM Nepal time.",
+  "when": "",
+  "start": "2026-10-20",
+  "end": "2026-10-31",
+  "deadline": "2026-11-07",
+  "opens": "2026-10-20",
+  "base": "open",
+  "cost": "Free",
+  "free": true,
+  "benefits": "Be part of something bigger: Join a lively, open celebration of WordPress, open source, and digital innovation.\nGrow your network: Meet global contributors, community leaders, developers, business owners, and fellow WordPress fans.\nGain real-world experience: From event planning to media support, volunteering builds your teamwork, leadership, and organizational skills.\nEnjoy special perks: Free admission, event swag, an exclusive volunteer T-shirt, access to the pre-party and after-party, and memories that last a lifetime.",
+  "level": "Advanced",
+  "link": "https://nepal.wordcamp.org/2027/call-for-volunteers/",
+  "verified": "2026-10-20",
+  "steps": [
+   "Register",
+   "Team",
+   "Submit"
+  ],
+  "notes": ""
+ },
+ {
   "slug": "nasa-space-apps-challenge-2026",
   "title": "NASA Space Apps Challenge 2026",
   "category": "hackathons",

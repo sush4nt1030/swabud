@@ -1,7 +1,24 @@
 {
  "generated": "2026-10-20",
- "count": 124,
+ "count": 125,
  "opportunities": [
+  {
+   "slug": "call-for-volunteers",
+   "title": "Call For Volunteers",
+   "category": "volunteering",
+   "organizer": "WordCamp Nepal",
+   "summary": "Volunteer at WordCamp Nepal 2027\nReady to be part of Nepal’s biggest WordPress event?\n\nWordCamp Nepal 2027 takes place on January 29 and 30, 2027, in Nepalgunj. We’re looking for energetic, motivated, and dependable volunteers to help make this event another memorable one.\n\nVolunteering at WordCamp is about more than helping behind the scenes. It’s about creating an experience that inspires thousands of people in Nepal’s growing WordPress community. Whether you’re a WordPress veteran, designer, developer, content creator, or simply a volunteer at heart, this is your chance to participate, network, and learn.\n\nDeadline for form submission is October 31, 2026",
+   "mode": "In person",
+   "region": "nepal",
+   "opens": "2026-10-20",
+   "start": "2026-10-20",
+   "end": "2026-10-31",
+   "deadline": "2026-11-07",
+   "free": true,
+   "verified": "2026-10-20",
+   "status": "open",
+   "url": "https://swabud.tech/opportunities/call-for-volunteers.html"
+  },
   {
    "slug": "nasa-space-apps-challenge-2026",
    "title": "NASA Space Apps Challenge 2026",
