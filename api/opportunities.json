@@ -1,7 +1,41 @@
 {
  "generated": "2026-10-23",
- "count": 125,
+ "count": 127,
  "opportunities": [
+  {
+   "slug": "learning-planet-youth-design-challenge",
+   "title": "Learning Planet Youth Design Challenge",
+   "category": "programs",
+   "organizer": "Learning Planet Institute",
+   "summary": "The Learning Planet Youth Design Challenge (LPYDC) is a launchpad for youth-led social impact projects.\n\nThe participants, aged between 15 and 26, pitch projects online that can create real-world impact in their communities.\n\nProjects should align with one of the following themes:\n\nPeace & Democracy\nMental Health & Wellbeing\nEnvironment & Climate",
+   "mode": "Online",
+   "region": "online",
+   "opens": "2026-10-14",
+   "start": "2027-01-07",
+   "end": "2027-01-07",
+   "deadline": "2027-01-07",
+   "free": true,
+   "verified": "2026-10-23",
+   "status": "open",
+   "url": "https://swabud.tech/opportunities/learning-planet-youth-design-challenge.html"
+  },
+  {
+   "slug": "call-for-female-nepali-artists",
+   "title": "Call for Female Nepali Artists",
+   "category": "hackathons",
+   "organizer": "Australian Embassy Nepal",
+   "summary": "The Australian Embassy in Kathmandu is inviting Expressions of Interest (EOI) from female Nepali artists and women-led creative groups to design and paint two new murals on the Embassy's front walls.",
+   "mode": "In person",
+   "region": "nepal",
+   "opens": "2026-10-23",
+   "start": "2026-11-07",
+   "end": "2026-11-07",
+   "deadline": "2026-11-07",
+   "free": true,
+   "verified": "2026-10-23",
+   "status": "open",
+   "url": "https://swabud.tech/opportunities/call-for-female-nepali-artists.html"
+  },
   {
    "slug": "call-for-volunteers",
    "title": "Call For Volunteers",

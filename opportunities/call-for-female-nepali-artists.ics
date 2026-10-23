@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SWABUD//swabud.tech//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:call-for-female-nepali-artists-event@swabud.tech
+DTSTAMP:20261023T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Call for Female Nepali Artists
+DESCRIPTION:The Australian Embassy in Kathmandu is inviting Expressions of Interest (EOI) from female Nepali artists and women-led creative groups to design and paint two new murals on the Embassy's front walls. Details: https://swabud.tech/opportunities/call-for-female-nepali-artists.html
+URL:https://swabud.tech/opportunities/call-for-female-nepali-artists.html
+END:VEVENT
+BEGIN:VEVENT
+UID:call-for-female-nepali-artists-deadline@swabud.tech
+DTSTAMP:20261023T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Deadline: Call for Female Nepali Artists
+DESCRIPTION:The Australian Embassy in Kathmandu is inviting Expressions of Interest (EOI) from female Nepali artists and women-led creative groups to design and paint two new murals on the Embassy's front walls. Details: https://swabud.tech/opportunities/call-for-female-nepali-artists.html
+URL:https://swabud.tech/opportunities/call-for-female-nepali-artists.html
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SWABUD//swabud.tech//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:learning-planet-youth-design-challenge-event@swabud.tech
+DTSTAMP:20261023T000000Z
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+SUMMARY:Learning Planet Youth Design Challenge
+DESCRIPTION:The Learning Planet Youth Design Challenge (LPYDC) is a launchpad for youth-led social impact projects.  The participants\, aged between 15 and 26\, pitch projects online that can create real-world impact in their communities.  Projects should align with one of the following themes:  Peace & Democracy Mental Health & Wellbeing Environment & Climate Details: https://swabud.tech/opportunities/learning-planet-youth-design-challenge.html
+URL:https://swabud.tech/opportunities/learning-planet-youth-design-challenge.html
+END:VEVENT
+BEGIN:VEVENT
+UID:learning-planet-youth-design-challenge-deadline@swabud.tech
+DTSTAMP:20261023T000000Z
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+SUMMARY:Deadline: Learning Planet Youth Design Challenge
+DESCRIPTION:The Learning Planet Youth Design Challenge (LPYDC) is a launchpad for youth-led social impact projects.  The participants\, aged between 15 and 26\, pitch projects online that can create real-world impact in their communities.  Projects should align with one of the following themes:  Peace & Democracy Mental Health & Wellbeing Environment & Climate Details: https://swabud.tech/opportunities/learning-planet-youth-design-challenge.html
+URL:https://swabud.tech/opportunities/learning-planet-youth-design-challenge.html
+END:VEVENT
+END:VCALENDAR
