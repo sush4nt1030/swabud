@@ -4,7 +4,7 @@ PRODID:-//SWABUD//swabud.tech//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:learning-planet-youth-design-challenge-event@swabud.tech
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;VALUE=DATE:20270107
 DTEND;VALUE=DATE:20270108
 SUMMARY:Learning Planet Youth Design Challenge
@@ -13,7 +13,7 @@ URL:https://swabud.tech/opportunities/learning-planet-youth-design-challenge.htm
 END:VEVENT
 BEGIN:VEVENT
 UID:learning-planet-youth-design-challenge-deadline@swabud.tech
-DTSTAMP:20261024T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;VALUE=DATE:20270107
 DTEND;VALUE=DATE:20270108
 SUMMARY:Deadline: Learning Planet Youth Design Challenge
