@@ -4,7 +4,7 @@ PRODID:-//SWABUD//swabud.tech//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:call-for-female-nepali-artists-event@swabud.tech
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261026T000000Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:Call for Female Nepali Artists
@@ -13,7 +13,7 @@ URL:https://swabud.tech/opportunities/call-for-female-nepali-artists.html
 END:VEVENT
 BEGIN:VEVENT
 UID:call-for-female-nepali-artists-deadline@swabud.tech
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261026T000000Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:Deadline: Call for Female Nepali Artists
