@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31",
+ "generated": "2026-11-01",
  "count": 127,
  "opportunities": [
   {
@@ -33,7 +33,7 @@
    "deadline": "2026-11-07",
    "free": true,
    "verified": "2026-10-23",
-   "status": "open",
+   "status": "closing",
    "url": "https://swabud.tech/opportunities/call-for-female-nepali-artists.html"
   },
   {
@@ -50,7 +50,7 @@
    "deadline": "2026-11-07",
    "free": true,
    "verified": "2026-10-20",
-   "status": "open",
+   "status": "closing",
    "url": "https://swabud.tech/opportunities/call-for-volunteers.html"
   },
   {
@@ -84,7 +84,7 @@
    "deadline": "2026-10-31",
    "free": true,
    "verified": "2026-10-13",
-   "status": "closing",
+   "status": "closed",
    "url": "https://swabud.tech/opportunities/hacktoberfest-2026.html"
   },
   {
@@ -458,7 +458,7 @@
    "deadline": "",
    "free": false,
    "verified": "2026-10-13",
-   "status": "live",
+   "status": "closed",
    "url": "https://swabud.tech/opportunities/ieeextreme-20.html"
   },
   {
